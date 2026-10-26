@@ -25,3 +25,38 @@ Estudiante de Diseno y Desarrollo de Software en Tecsup.
 5. Crear la rama de correción y hacer los cambios
 6. Hacer el commit y subir la rama a nuestro fork
 7. Crear el pull request
+
+## Mi avance del modulo
+-	[x] Laboratorio 01: Git basico
+-	[ ] Laboratorio 03: Trabajo colaborativo
+
+
+## Enlaces utiles
+
+-	[Mi perfil de GitHub](https://github.com/diegosolis-98) 
+
+## Captura de mi trabajo
+
+![Pantalla principal del proyecto](img/captura.png)
+
+## Comandos que mas uso
+
+Para ver el estado del proyecto uso `git status`.
+
+```bash
+git clone https://github.com/diegosolis-98/tienda-tecsup.git 
+git checkout -b fix-total-carrito
+git add .
+git commit -m "Actualiza el script.js"
+git push origin main
+```
+
+| Comando | Que hace |
+|--------------|----------------|
+| `git clone` | Copia el proyecto al repositorio local |
+| `git checkout` | Crea y a la misma vez nos mueve a la nueva rama |
+| `git add` | Prepara los cambios |
+| `git commit` | Guarda la version |
+| `git push` | Sube los cambios al remoto |
+
+> Documentar es parte del trabajo, no un extra al final.
